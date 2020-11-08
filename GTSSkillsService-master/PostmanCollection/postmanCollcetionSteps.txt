@@ -1,0 +1,13 @@
+#steps to run postman collection:
+
+open the project in local directory(ex -- G:\project_file\workspace\gts-skill-services\PostmanCollection)
+
+double click on "gtsSkillCollection.html" file
+
+Click on "run in postman" button
+
+Open with postman for windows/mac
+
+Go to collections and open postmanCollection folder.
+
+Run the given request

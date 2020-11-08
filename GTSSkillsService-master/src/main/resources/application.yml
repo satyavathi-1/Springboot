@@ -1,0 +1,46 @@
+
+
+#spring.datasource.url: jdbc:mysql://gts-db.cezw3zk6ngsr.ap-south-1.rds.amazonaws.com:3306/GTS_CHAKURI_DB
+#spring.datasource.username: admin
+#spring.datasource.password: 123456789
+
+
+#spring.datasource.url = jdbc:mysql://localhost:3306/GTS-MYSQL?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+#spring.datasource.username = root
+#spring.datasource.password = GTSsqlRoot
+
+#localhost server port
+#server.port= 4737
+
+#eureka.client.serviceUrl.defaultZone  : http://ec2-3-6-160-129.ap-south-1.compute.amazonaws.com:7001/eureka/
+#eureka.instance.metadataMap.zone : ap-south-1
+#eureka.client.preferSameZoneEureka : true
+
+
+
+#server:
+#  port: 4737
+      
+ 
+#eureka:         
+#  instance:
+##    lease-Renewal-Interval-In-Seconds: 10
+#    lease-Expiration-Duration-In-Seconds: 20
+ #   preferIpAddress: true
+  #  hostname: ${vcap.application.uris[0]:13.126.184.129}
+   # prefer-ip-address: true
+
+#  client:
+   
+#    service-Url:
+ #     defaultZone: http://ec2-3-6-160-129.ap-south-1.compute.amazonaws.com:7001/eureka/
+#    healthcheck:
+#      enabled: true
+#    lease:
+ #     duration: 10
+      
+ 
+#spring:     
+ # application:
+ #   name: GTSSkillsService
+     
